@@ -1,0 +1,66 @@
+body{
+background:#f4f7fc;
+}
+
+.hero{
+background:linear-gradient(135deg,#0f172a,#2563eb);
+color:white;
+padding:60px;
+border-radius:20px;
+margin:30px auto;
+width:90%;
+box-shadow:0 10px 25px rgba(0,0,0,0.25);
+}
+
+.hero h1{
+font-size:55px;
+font-weight:700;
+}
+
+.hero p{
+font-size:20px;
+margin-top:15px;
+}
+
+.card{
+border:none;
+border-radius:20px;
+transition:all 0.3s ease;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 30px rgba(0,0,0,0.2);
+}
+
+.module-btn{
+border-radius:15px;
+padding:12px;
+font-weight:bold;
+}
+.stat-card{
+color:white;
+border-radius:20px;
+overflow:hidden;
+}
+
+.records-card{
+background:linear-gradient(135deg,#2563eb,#1d4ed8);
+}
+
+.search-card{
+background:linear-gradient(135deg,#16a34a,#15803d);
+}
+
+.logs-card{
+background:linear-gradient(135deg,#ea580c,#c2410c);
+}
+
+.stat-card h1{
+font-size:50px;
+font-weight:bold;
+}
+
+.stat-card h5{
+margin-bottom:20px;
+}
